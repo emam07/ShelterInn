@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Shelter</title>
+</head>
+
+<body>
+    <div class="main_container" id="home">
+        <div class="navbar">
+            <div class="logo">
+                <a href="#">Shelter</a>
+            </div>
+            <div class="navbar_items">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html" target="_blank">About</a></li>
+                    <li><a href="donate.html" target="_blank">Donate</a></li>
+                    <li><a href="adopt.html" target="_blank">Adopt</a></li>
+                    <li><a href="login.html" target="_blank">Login</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="banner_image">
+            <div class="banner_content">
+            </div>
+        </div>
+
+        <div class="services" id="services">
+            <h1 class="title">Our Services</h1>
+            <p>We provide everything as stated. We try our best to help these animals get a better place for living and
+                nurturing.</p>
+
+            <div class="diff_services">
+                <div class="diff_service_item">
+                    <img src="https://img.freepik.com/free-vector/hand-drawn-pet-custody-illustration_23-2150778291.jpg?w=740&t=st=1718037695~exp=1718038295~hmac=3bdf86d3a42c8b34d69e71ff5cd367fcd6f6fe31e34553b6535b5e5f40376360"
+                        alt="adoption_image">
+                    <h3>Adoption</h3>
+                    <p>Try giving a better life to deserving one instead of bringing a new one.</p>
+                </div>
+                <div class="diff_service_item">
+                    <img src="https://img.freepik.com/free-vector/cute-dog-house_1308-115570.jpg" alt="image">
+                    <h3>Providing Shelter</h3>
+                    <p>Providing them with shelter to live and food to eat.</p>
+                </div>
+                <div class="diff_service_item">
+                    <img src="https://img.freepik.com/free-vector/hand-drawn-animal-rescue-illustration_23-2150219157.jpg?t=st=1718038082~exp=1718041682~hmac=d90e52925f6ac20cf8f92f7e15e5b5c734b57f58f9166a8fd35d64d75165cfef&w=740"
+                        alt="image">
+                    <h3>Medication</h3>
+                    <p>Providing them with medication and rescuing them.</p>
+                </div>
+            </div>
+        </div>
+        <div class="about" id="about">
+            <h1 class="title">About Us</h1>
+            <p>THE WORLD CAN BE A CRUEL PLACE, ESPECIALLY WHEN YOU'RE ALONE. BUT HERE AT SHELTER, WE BELIEVE IN MAKING A
+                DIFFERENCE. WE'RE MORE THAN JUST AN ORGANIZATION; WE'RE A FAMILY DEDICATED TO PROVIDING A SAFE HAVEN FOR
+                ANIMALS IN NEED.</p>
+            <p>Our mission is simple: to rescue, rehabilitate, and rehome animals who have been abandoned, neglected, or
+                abused. Each day, we strive to give these innocent creatures a second chance at life, filled with love,
+                care, and compassion.</p>
+            <p>With your support, we can continue to make a difference. Whether it's through adoption, volunteering, or
+                spreading awareness, every action counts. Together, we can create a world where every animal is valued
+                and cherished.</p>
+            <p>At Shelter, our work goes beyond just providing shelter. We offer medical care, training, and
+                socialization to ensure that each animal receives the best possible care. Our team of dedicated staff
+                and volunteers work tirelessly to make sure that every animal's needs are met.</p>
+            <p>But our impact extends beyond the animals we rescue. By promoting responsible pet ownership and
+                advocating for animal welfare, we're working to create a more compassionate society for all beings.
+                Together, we can build a future where no animal suffers, and every heart is filled with love.</p>
+        </div>
+
+        <div class="footer">
+            <a href="check.html">@shelter</a>
+        </div>
+
+        <div class="arrow">
+            <a href="#home"><img src="https://cdn-icons-png.flaticon.com/512/60/60564.png" alt="up_arrow"></a>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+
+            if (username === 'user' && password === 'password') {
+                alert('Login successful!');
+            } else {
+                alert('Invalid username or password.');
+            }
+        });
+    </script>
+</body>
+
+</html>

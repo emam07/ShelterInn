@@ -1,0 +1,212 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #8696a5;
+    margin: 0;
+    padding: 0;
+    color: #111111;
+}
+
+/* Container styling */
+.main_container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c3e50;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.navbar .logo a {
+    color: #f09494;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.navbar_items ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar_items ul li {
+    margin: 0 10px;
+}
+
+.navbar_items ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.navbar_items ul li a:hover {
+    background-color: #8e44ad;
+}
+
+/* Banner styling */
+.banner_image {
+    background-image: url('https://img.freepik.com/free-vector/adopt-pet-illustration-with-dogs_23-2148530084.jpg?w=1060&t=st=1718031038~exp=1718031638~hmac=2fe167fc24f34a75a0bd9dc2028a219c64d36db02960778a115c5a648f6302d2');
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.banner_content h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.banner_content span {
+    font-size: 1.2em;
+}
+
+/* Section styling */
+.title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.about, .services, .contactus {
+    margin: 40px 0;
+    text-align: center;
+}
+.about p{
+    text-align: justify;
+}
+
+.about p, .services p, .contactus p {
+    margin: 20px 0;
+}
+
+.btnn, .btn {
+    display: inline-block;
+    background-color: #8e44ad;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btnn:hover, .btn:hover {
+    background-color: #732d91;
+}
+
+/* Services section */
+.diff_services {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.diff_service_item {
+    flex-basis: calc(33.33% - 20px); /* Adjust width as needed */
+    margin-bottom: 20px;
+}
+
+.diff_service_item:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.diff_service_item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.diff_service_item h3 {
+    margin: 10px 0;
+    color: #2c3e50;
+}
+
+/* Style for login form */
+.login_form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #8696a5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login_form h1.title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form_input {
+    margin-bottom: 15px;
+}
+
+.form_input label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form_input input[type="text"],
+.form_input input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn button {
+    padding: 10px 20px;
+    background-color: #8696a5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn button:hover {
+    background-color: #45a049;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.footer a {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.arrow {
+    text-align: right;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+.arrow a img {
+    width: 40px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="donate_style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <title>Donation</title>
+</head>
+<body>
+<div class="inner">
+    <div class="donate_g">
+        <h2 class="heading h1 teal">Donate</h2>
+        <div class="text extra-classy">
+            <p>Select the amount you wish to donate and enter your username.</p>
+            <p>By donating, you agree to our <a href="./policy.php">Refund Policy</a>.</p>
+        </div>
+        <form action="tree" method="POST">
+            <div class="form-group">
+                <label for="amount">Amount:</label>
+                <select id="amount" name="Amount">
+                    <option value="10">$10</option>
+                    <option value="20">$20</option>
+                    <option value="50">$50</option>
+                    <option value="100">$100</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" maxlength="12" name="username" placeholder="Enter Username">
+            </div>
+            <div class="form-group">
+                <button type="submit" name="submit" value="Submit">Submit</button>
+            </div>
+        </form>
+        <a href="http://www.plimus.com/ecommerce/buyers" target="_blank" title="Trusted and Secure Online Payment Processing via PLIMUS">
+            <img src="https://www.plimus.com/images/icons_wizard/icons/cards/cards_type2_1-1.gif" border="0" alt="Payment Options">
+        </a>
+    </div>
+</div>
+</body>
+</html>
